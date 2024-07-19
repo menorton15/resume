@@ -46,9 +46,6 @@ export const emailRouter = createTRPCRouter({
       } catch (error) {
         if (error instanceof Error) {
           console.error("SMTP Error:", error.message);
-          if ((error as any).response) {
-            console.error("SMTP Response:", (error as any).response);
-          }
           throw new Error(`Failed to send email: ${error.message}`);
         } else {
           console.error("Unexpected error", error);
