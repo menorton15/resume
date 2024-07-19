@@ -27,7 +27,7 @@ export default async function Home() {
           <div className="my-16 flex lg:flex-row sm:flex-col w-full rounded-full items-center">
             <Image
               className="rounded-full max-sm:w-100 max-sm:h-100"
-              src={"profile.jpg"}
+              src={"profile.JPG"}
               alt={"profile"}
               width={500}
               height={500}
