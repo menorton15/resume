@@ -13,7 +13,7 @@ export const Navbar = () => {
   return (
     <div className={`
       visble 
-      ${mobileMenuExpanded ? "max-md:fixed" : "max-md:absolute"} w-full h-full z-[9999]`}>
+      ${mobileMenuExpanded ? "max-md:fixed" : "max-md:absolute"} w-full z-[9999]`}>
       <div
         className={`
         z-50
@@ -82,7 +82,7 @@ export const Navbar = () => {
             {MenuItems.map((item, index) => {
               return (
                 <li key={index} className="text-center">
-                  <Link
+                  <a
                     className={`
                       max-lg:text 
                       w-auto
@@ -102,7 +102,7 @@ export const Navbar = () => {
                     href={item.url}
                   >
                     {item.title}
-                  </Link>
+                  </a>
                 </li>
               );
             })}
