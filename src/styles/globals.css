@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    display: block;
+}
+
+div:has(.next-error-h1) {
+    color: white;
+}
+
+.next-error-h1 {
+    border-color: white !important;
+}
+
+.skill-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 1600px;
+    z-index: 0;
+}

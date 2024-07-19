@@ -1,0 +1,25 @@
+<svg id="ej1wEcxhKm61" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    viewBox="0 0 1920 1080" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+    <defs>
+        <linearGradient id="ej1wEcxhKm62-fill" x1="0" y1="0.5" x2="1" y2="0.5" spreadMethod="pad"
+            gradientUnits="objectBoundingBox" gradientTransform="translate(0 0)">
+            <stop id="ej1wEcxhKm62-fill-0" offset="0%" stop-color="#f241ff" />
+            <stop id="ej1wEcxhKm62-fill-1" offset="50%" stop-color="#00d1ff" />
+            <stop id="ej1wEcxhKm62-fill-2" offset="100%" stop-color="#02fd90" />
+        </linearGradient>
+        <linearGradient id="ej1wEcxhKm63-fill" x1="0" y1="0.5" x2="1" y2="0.5" spreadMethod="pad"
+            gradientUnits="objectBoundingBox" gradientTransform="translate(0 0)">
+            <stop id="ej1wEcxhKm63-fill-0" offset="0%" stop-color="#02fd90" />
+            <stop id="ej1wEcxhKm63-fill-1" offset="47%" stop-color="#00d1ff" />
+            <stop id="ej1wEcxhKm63-fill-2" offset="100%" stop-color="#f241ff" />
+        </linearGradient>
+    </defs>
+    <path
+        d="M448,80v48c0,44.2-100.3,80-224,80s-224-35.8-224-80v-48C0,35.8,100.3,0,224,0s224,35.8,224,80ZM393.2,214.7c20.8-7.4,39.9-16.9,54.8-28.6v101.9c0,44.2-100.3,80-224,80s-224-35.8-224-80v-101.9c14.9,11.8,34,21.2,54.8,28.6C99.7,230.7,159.5,240,224,240s124.3-9.3,169.2-25.3ZM0,346.1c14.9,11.8,34,21.2,54.8,28.6C99.7,390.7,159.5,400,224,400s124.3-9.3,169.2-25.3c20.8-7.4,39.9-16.9,54.8-28.6v85.9c0,44.2-100.3,80-224,80s-224-35.8-224-80v-85.9Z"
+        transform="matrix(1.380971 0 0 1.380968 199.225997 43.808902)"
+        fill="url(#ej1wEcxhKm62-fill)" />
+    <path
+        d="M64,32C28.7,32,0,60.7,0,96v64c0,35.3,28.7,64,64,64h384c35.3,0,64-28.7,64-64v-64c0-35.3-28.7-64-64-64h-384Zm280,72c13.254834,0,24,10.745166,24,24s-10.745166,24-24,24-24-10.745166-24-24s10.745166-24,24-24Zm48,24c0-13.254834,10.745166-24,24-24s24,10.745166,24,24-10.745166,24-24,24-24-10.745166-24-24ZM64,288c-35.3,0-64,28.7-64,64v64c0,35.3,28.7,64,64,64h384c35.3,0,64-28.7,64-64v-64c0-35.3-28.7-64-64-64h-384Zm280,72c13.254834,0,24,10.745166,24,24s-10.745166,24-24,24-24-10.745166-24-24s10.745166-24,24-24Zm56,24c0-13.254834,10.745166-24,24-24s24,10.745166,24,24-10.745166,24-24,24-24-10.745166-24-24Z"
+        transform="matrix(1.387135 0 0 1.387135 1053.04248 371.098582)"
+        fill="url(#ej1wEcxhKm63-fill)" />
+</svg>
