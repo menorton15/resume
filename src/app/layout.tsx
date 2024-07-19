@@ -5,6 +5,7 @@ import { GeistSans } from "geist/font/sans";
 import { type Metadata } from "next";
 
 import { TRPCReactProvider } from "~/trpc/react";
+import { Footer } from "./_components/footer";
 
 export const metadata: Metadata = {
   title: "Matthew Norton | Software Engineer",
@@ -22,6 +23,7 @@ export default function RootLayout({
           <Navbar></Navbar>
         </header>
         <TRPCReactProvider>{children}</TRPCReactProvider>
+        <Footer />
       </body>
     </html>
   );
