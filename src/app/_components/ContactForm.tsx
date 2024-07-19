@@ -32,21 +32,22 @@ const ContactForm = () => {
 
   return (
     <section>
-      <h3 className="my-5 text-xl font-bold text-center text-white">Message Me</h3>
+      <h3 className="mt-5 text-xl font-bold text-center text-white">Message Me</h3>
+      <p className='my-2 text-white text-sm text-center'>* Indicates required field</p>
       <form className="flex flex-col" onSubmit={handleSubmit}>
         <label className="text-white">
-          Name
+          Name*
         </label>
         <input className="my-2" type="text" name="name" value={formData.name} onChange={handleChange} required />
         <label className="text-white">
           Company
         </label>
-        <input className="my-2" type="text" name="company" value={formData.company} onChange={handleChange} required />
+        <input className="my-2" type="text" name="company" value={formData.company} onChange={handleChange} />
         <label className="text-white">
-          Email
+          Email*
         </label>
         <input className="my-2" type="email" name="email" value={formData.email} onChange={handleChange} required />
-        <label className="text-white">Message</label>
+        <label className="text-white">Message*</label>
         <textarea className="my-2 resize-none h-64" name="message" value={formData.message} onChange={handleChange} required />
         <input
           className="bg-indigo-400 border-indigo-400 button mt-5 py-2 px-5 cursor-pointer duration-500 ease-in-out hover:bg-transparent hover:border-primary hover:shadow-button w-auto self-center rounded-2xl border-2 border-solid text-white"

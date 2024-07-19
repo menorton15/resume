@@ -29,7 +29,7 @@ export const ButtonLink: React.FC<ButtonLinkProps> = ({
   target
 }) => {
   return (
-    <Link 
+    <a 
       className={`
         bg-indigo-400
         border
@@ -60,6 +60,6 @@ export const ButtonLink: React.FC<ButtonLinkProps> = ({
     >
       {value}
       {icon ?? undefined}
-    </Link>
+    </a>
   );
 }
