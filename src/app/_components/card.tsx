@@ -100,7 +100,7 @@ export const Card = ({
                 via-indigo-200
                 to-purple-300">{headline}</h3>
           <Image
-            className="flex flex-col text-center md:w-9/12 sm:w-3/5 md:mt-10 sm:mt-8 mx-auto "
+            className="flex flex-col text-center md:w-9/12 sm:w-full md:mt-10 sm:mt-8 mx-auto "
             src={logoImg}
             alt={alt}
             width={50}
