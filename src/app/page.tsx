@@ -69,7 +69,7 @@ export default async function Home() {
               </div>
           </div>
         </div>
-        <p className="my-5 mb-14 text-white"><a className="underline" href={"/skills"}>Click here</a> for a full list of my skills.</p>
+        <p className="my-5 mb-14 text-white">See a full list of my <a className="underline" href={"/skills"}>skills</a></p>
             
       </main>
     </HydrateClient>
