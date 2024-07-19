@@ -146,7 +146,9 @@ export const Card = ({
           >
             
             {panelOne.content.map((text, key) => {return (
-              <div className="
+              <div 
+              key={key}
+              className="
               my-5
               text-transparent
               bg-clip-text

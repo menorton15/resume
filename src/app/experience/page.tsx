@@ -1,6 +1,5 @@
 import Link from "next/link";
 
-import { LatestPost } from "~/app/_components/post";
 import { getServerAuthSession } from "~/server/auth";
 import { api, HydrateClient } from "~/trpc/server";
 
@@ -16,10 +15,10 @@ import ContactForm from "../_components/ContactForm";
 import { experienceData } from "./experienceData";
 
 export default async function Home() {
-  const hello = await api.post.hello({ text: "from tRPC" });
+  //const hello = await api.post.hello({ text: "from tRPC" });
   const session = await getServerAuthSession();
 
-  void api.post.getLatest.prefetch();
+  //void api.post.getLatest.prefetch();
 
   return (
     <HydrateClient>
@@ -27,7 +26,6 @@ export default async function Home() {
         <div className="container flex w-full flex-col items-center justify-center gap-12 px-4 py-16">
           <h1 className="mb-20 text-center text-white lg:text-5xl md:text-3xl landscape:md:text-5xl sm:text-2xl">Work Experience</h1>
           <WorkExperience experience={experienceData} />
-          {session?.user && <LatestPost />}
         </div>
       </main>
     </HydrateClient>

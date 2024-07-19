@@ -57,7 +57,7 @@ const Skills = () => (
     </div>
     <div>
       <p className="text-center text-white mt-10">
-        *Don't see a skill you're looking for?  I am a fast learner, so <Link className="underline" href={"/contact"}>contact me</Link> with details of your project to get a proposal.
+        *Don&apos;t see a skill you&apos;re looking for?  I am a fast learner, so <Link className="underline" href={"/contact"}>contact me</Link> with details of your project to get a proposal.
       </p>
     </div>
   </div>
