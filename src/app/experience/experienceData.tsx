@@ -7,6 +7,36 @@ export type Experience = {
 
 export const experienceData: Experience[] = [
   {
+    title: "Software Developer",
+    company: "Iowa State University",
+    dateEmployed: "June 2025 - Present",
+    responsibilities: [
+      "Standardized 15 job tasks and trained junior team members on industry best practices and standards",
+      "Implemented corrective plans of action for employee performance issues to improve efficiency by 17%",
+      "Analyzed latest technology innovations and made recommendations regarding infrastructure overhauls to reduce costs by 13%",
+    ],
+  },
+  {
+    title: "Freelance Software Developer",
+    company: "Medicenter",
+    dateEmployed: "N/A",
+    responsibilities: [
+      "Standardized 15 job tasks and trained junior team members on industry best practices and standards",
+      "Implemented corrective plans of action for employee performance issues to improve efficiency by 17%",
+      "Analyzed latest technology innovations and made recommendations regarding infrastructure overhauls to reduce costs by 13%",
+    ],
+  },
+  {
+    title: "Freelance Software Developer",
+    company: "MyStay Trips",
+    dateEmployed: "N/A",
+    responsibilities: [
+      "Standardized 15 job tasks and trained junior team members on industry best practices and standards",
+      "Implemented corrective plans of action for employee performance issues to improve efficiency by 17%",
+      "Analyzed latest technology innovations and made recommendations regarding infrastructure overhauls to reduce costs by 13%",
+    ],
+  },
+  {
     title: "Software Engineer",
     company: "Merkle Root",
     dateEmployed: "March 2022 - March 2024",
@@ -25,16 +55,6 @@ export const experienceData: Experience[] = [
       "Gathered user requirements, and built and maintained code for the tool, saving employees 100 monthly hours in labor",
       "Tested software for bugs and onboarding speed, fixing bugs and documenting processes to increase efficiency by 80%",
       "Analyzed 2,000+ code-related issues and defects",
-    ],
-  },
-  {
-    title: "Systems Administrator",
-    company: "Medicenter",
-    dateEmployed: "May 2019 - October 2019",
-    responsibilities: [
-      "Standardized 15 job tasks and trained junior team members on industry best practices and standards",
-      "Implemented corrective plans of action for employee performance issues to improve efficiency by 17%",
-      "Analyzed latest technology innovations and made recommendations regarding infrastructure overhauls to reduce costs by 13%",
     ],
   },
   {
