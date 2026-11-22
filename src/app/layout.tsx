@@ -6,6 +6,7 @@ import { type Metadata } from "next";
 
 import { TRPCReactProvider } from "~/trpc/react";
 import { Footer } from "./_components/footer";
+import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
   title: "Matthew Norton | Software Engineer",
@@ -24,6 +25,7 @@ export default function RootLayout({
         </header>
         <TRPCReactProvider>{children}</TRPCReactProvider>
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
